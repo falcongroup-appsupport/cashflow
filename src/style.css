@@ -1,0 +1,19 @@
+:root { font-family: Inter, "Segoe UI", Arial, sans-serif; color: #172033; background: #f4f7fb; font-synthesis: none; text-rendering: optimizeLegibility; }
+html, body, #app { min-height: 100%; margin: 0; }
+body { background: #f4f7fb; }
+.v-application { background: #f4f7fb !important; }
+.v-app-bar { box-shadow: 0 2px 14px rgba(15, 23, 42, .09) !important; }
+.v-navigation-drawer { border-right: 1px solid #e5eaf1 !important; }
+.v-list-item { border-radius: 8px; margin: 2px 8px; }
+.v-card { border: 1px solid #e5eaf1; border-radius: 14px !important; box-shadow: 0 4px 16px rgba(15, 23, 42, .045) !important; }
+.v-card-title { font-weight: 650; }
+.v-btn { text-transform: none !important; letter-spacing: 0 !important; }
+.v-table { background: transparent !important; }
+.v-table table { min-width: max-content; width: 100%; }
+.v-table th { white-space: nowrap; background: #edf2f8; color: #34445d !important; font-weight: 650 !important; }
+.v-table td, .v-table th { padding: 10px 14px !important; }
+.v-tabs { border-bottom: 1px solid #e5eaf1; }
+.text-right { text-align: right; }
+.entry-grid .v-field { font-size: 13px; }
+.entry-grid .v-card-text { overflow-x: auto; }
+@media (max-width: 800px) { .v-navigation-drawer { width: 220px !important; } .v-card-title { font-size: 16px; } }
